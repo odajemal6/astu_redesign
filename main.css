@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+.home {
+  background-color: lightblue;
+  padding: 10px;
+}
+#main-home a {
+  background-color: purple;
+  border-radius: 8px;
+  padding: 0 12px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+}
+#main-home::active,
+#main-home::focus {
+  background-color: lightblue;
+}
+.nav-list {
+  text-decoration: none;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: bold;
+}
